@@ -8,19 +8,22 @@ const PricePage = () => (
     <SEO title="Price" />
 
     <div className="banner_w3lspvt-2">
-			<ol className="breadcrumb">
+      <ol className="breadcrumb">
         <li className="breadcrumb-item">
-          <Link to="/" className="font-weight-bold">Home</Link>
+          <Link to="/" className="font-weight-bold">
+            Home
+          </Link>
         </li>
-				<li className="breadcrumb-item" aria-current="page">Pricing</li>
-			</ol>
+        <li className="breadcrumb-item" aria-current="page">
+          Pricing
+        </li>
+      </ol>
     </div>
-    
+
     <div className="price-sec py-5">
       <div className="container py-xl-5 py-lg-3">
         <div className="inner_sec_info_w3_info mt-3">
           <div className="row price-grid-main">
-
             <div className="col-lg-4 col-sm-6 price-info">
               <div className="prices p-4">
                 <div className="prices-top">
@@ -39,7 +42,11 @@ const PricePage = () => (
                     <li className="del">Data Access & Storage</li>
                     <li className="del">3rd Part Service Integration</li>
                   </ul>
-                  <a href="https://ultronele.netlify.com/service" className="btn button-style mt-4" target="_blank">
+                  <a
+                    href="https://ultronele.netlify.com/service"
+                    className="btn button-style mt-4"
+                    target="_blank"
+                  >
                     Details
                   </a>
                 </div>
@@ -56,17 +63,21 @@ const PricePage = () => (
                     <h4>SPONSOR MBR</h4>
                   </div>
                   <ul className="mt-4">
-                      <li>Deployment Support</li>
-                      <li>Usage Guidance</li>
-                      <li>Config Modification</li>
-                      <li>Charge</li>
-                      <li>Template Development</li>
-                      <li className="del" >Data Access & Storage</li>
-                      <li className="del" >3rd Part Service Integration</li>
-                    </ul>
-                    <a href="https://ultronele.netlify.com/service" className="btn button-style mt-4" target="_blank">
-                      Details
-                    </a>
+                    <li>Deployment Support</li>
+                    <li>Usage Guidance</li>
+                    <li>Config Modification</li>
+                    <li>Charge</li>
+                    <li>Template Development</li>
+                    <li className="del">Data Access & Storage</li>
+                    <li className="del">3rd Part Service Integration</li>
+                  </ul>
+                  <a
+                    href="https://ultronele.netlify.com/service"
+                    className="btn button-style mt-4"
+                    target="_blank"
+                  >
+                    Details
+                  </a>
                 </div>
               </div>
             </div>
@@ -81,15 +92,19 @@ const PricePage = () => (
                     <h4>Golden MBR</h4>
                   </div>
                   <ul className="mt-4">
-                      <li>Deployment Support</li>
-                      <li>Usage Guidance</li>
-                      <li>Config Modification</li>
-                      <li>Charge</li>
-                      <li>Template Development</li>
-                      <li>Data Access & Storage</li>
-                      <li>3rd Part Service Integration</li>
-                    </ul>
-                  <a href="https://ultronele.netlify.com/service" className="btn button-style mt-4" target="_blank">
+                    <li>Deployment Support</li>
+                    <li>Usage Guidance</li>
+                    <li>Config Modification</li>
+                    <li>Charge</li>
+                    <li>Template Development</li>
+                    <li>Data Access & Storage</li>
+                    <li>3rd Part Service Integration</li>
+                  </ul>
+                  <a
+                    href="https://ultronele.netlify.com/service"
+                    className="btn button-style mt-4"
+                    target="_blank"
+                  >
                     Details
                   </a>
                 </div>
@@ -98,8 +113,7 @@ const PricePage = () => (
           </div>
         </div>
       </div>
-    </div>    
-
+    </div>
   </Layout>
 )
 
